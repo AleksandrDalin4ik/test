@@ -1,0 +1,63 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-image {
+    height: 230px;
+    object-fit: contain;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.description {
+    color: grey;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.star {
+    height: 15px;
+}
+
+.star:hover {
+    height: 20px;
+    transition: 1s ease-in-out;
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* .btn:hover {
+    filter: grayscale(.2);
+} */
+
+
+
+.btn-warning {
+    background-color: orange;
+}
+
+.btn-warning:hover {
+    background-color: rgb(180, 119, 6);
+}
+
+.btn-warning:active {
+    background-color: rgb(128, 91, 24);
+}
+
